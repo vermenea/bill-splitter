@@ -1,0 +1,46 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #000;
+	background-color: #e0c0d8;
+	border-radius: 8px;
+}
+.header-container {
+	background-color: rgb(199, 52, 160);
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.header {
+	margin: 1em;
+}
+.title {
+	font-size: 1.2rem;
+	margin: 1em;
+}
+.inputs-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	margin: 1em;
+}
+.inputs-container input {
+	margin: 1em;
+	color: #000;
+	background-color: #fff;
+}
+.calculate-btn {
+	margin: 1em;
+	text-transform: uppercase;
+}
