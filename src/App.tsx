@@ -33,7 +33,7 @@ function App() {
 		<div className='container'>
 			<div className='header-container'>
 				<h1 className='header'>billsplitter</h1>
-				<h2 className='title'>split your bills with friends !</h2>
+				<h3 className='title'>Split your bills with friends 😎</h3>
 			</div>
 			<div className='inputs-container'>
 				<label htmlFor='bill'>Amount to be paid:</label>
@@ -67,7 +67,7 @@ function App() {
 			<button className='calculate-btn' onClick={calculate}>
 				count
 			</button>
-			<p>Split Bill: {count.toFixed(2)}</p>
+			<p>You should pay: {count.toFixed(2)} per person</p>
 		</div>
 	);
 }
