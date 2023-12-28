@@ -16,6 +16,6 @@ The Bill Splitter App is a web application developed using TypeScript and React.
 - **TypeScript**: A superset of JavaScript that adds static typing to the language.
 - **Vite**: Developement tool
 - **VercelApp**: Deployment
-- **Styled Components**: A CSS-in-JS library for styling React components.
+- **CSS**: Styling
 - **Responsive Design**: Ensure a consistent and user-friendly experience on different devices.
 ------------------------------------------------------------------------
