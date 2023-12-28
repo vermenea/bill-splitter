@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# Bill Splitter App 🤝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The Bill Splitter App is a web application developed using TypeScript and React. This application simplifies the process of splitting bills among friends or groups by providing an easy-to-use interface for entering expenses and calculating each participant's share.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Expense Entry**: Users can enter details of expenses, including the amount, description, and the participants involved.
+- **Real-time Calculations**: The app dynamically calculates and updates the amount each participant owes or is owed as expenses are entered or modified.
+- **Responsive Design**: The application is designed to work seamlessly across various devices and screen sizes.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that adds static typing to the language.
+- **Vite**: Developement tool
+- **VercelApp**: Deployment
+- **Styled Components**: A CSS-in-JS library for styling React components.
+- **Responsive Design**: Ensure a consistent and user-friendly experience on different devices.
+------------------------------------------------------------------------
