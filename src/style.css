@@ -1,66 +1,101 @@
-#root {
+* {
 	margin: 0 auto;
-	text-align: center;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 320px;
+	min-height: 100vh;
+	background-color: #242424;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
 }
+
 .container {
+	text-align: center;
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	color: #000;
 	background-color: #ebe7ec;
 	border-radius: 8px;
 }
+
 .header-container {
 	background-image: url('../src/assets/headerbcg.jpg');
 	background-position: center;
 	background-size: cover;
-	border-top-right-radius: 8px;
 	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
 	color: #fff;
 }
+
 .header {
-	margin: 1em 1em 0;
+	margin: 1em;
 	text-transform: uppercase;
-	background-color: #ffffff3c;
+	background-color: #d4d4d4c0;
 	border-radius: 8px;
 }
+
 .title {
-	margin: 1em 3em 1em;
+	margin: 1em 3em;
 	font-size: 1.2rem;
-	background-color: #ffffff4e;
+	background-color: #d4d4d4bc;
 	border-radius: 8px;
 }
+
+span {
+	margin: 0.2em;
+	color: rgb(184, 13, 178);
+}
+
 .inputs-container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-direction: column;
+	align-items: center;
 	width: 100%;
 	margin: 1em;
 }
+
 .inputs-container input {
 	margin: 1em;
 	color: #000;
+	border-radius: 4px;
 	background-color: #fff;
-	outline: #fff;
+	outline: none;
 }
+
 .inputs-container select {
 	margin-top: 1em;
 	cursor: pointer;
 }
+
 .calculate-btn {
 	margin: 1em;
 	text-transform: uppercase;
 	background-color: rgb(149, 217, 48);
+	border-radius: 4px;
 	border: none;
-	outline: #fff;
+	padding: 0.5em;
+	outline: none;
+	cursor: pointer;
 }
+
 .calculate-btn:hover {
 	background-color: rgb(137, 195, 50);
 }
+
+.result {
+	padding: 0.5em;
+}
+
 @media (max-width: 420px) {
+	.container {
+		width: 80%;
+	}
 	.header-container {
 		font-size: 0.6rem;
 	}

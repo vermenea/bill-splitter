@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.css';
 
 function App() {
 	const [count, setCount] = useState<number>(0);
@@ -25,7 +24,7 @@ function App() {
 			const splitBill = (billValue * tipValue + billValue) / friendsValue;
 			setCount(splitBill);
 		} else {
-			alert('dupa');
+			alert('Please fill in all inputs!');
 		}
 	};
 
@@ -33,7 +32,9 @@ function App() {
 		<div className='container'>
 			<div className='header-container'>
 				<h1 className='header'>billsplitter</h1>
-				<h3 className='title'>Split your bills with friends 😎</h3>
+				<h3 className='title'>
+					Split<span>your</span>bills with<span>friends</span>😎
+				</h3>
 			</div>
 			<div className='inputs-container'>
 				<label htmlFor='bill'>Amount to be paid:</label>
@@ -67,7 +68,7 @@ function App() {
 			<button className='calculate-btn' onClick={calculate}>
 				count
 			</button>
-			<p>You should pay: {count.toFixed(2)} per person</p>
+			<p className='result'>You should pay: {count.toFixed(2)} zl per person</p>
 		</div>
 	);
 }
